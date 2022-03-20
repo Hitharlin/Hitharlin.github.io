@@ -15,7 +15,7 @@
 <header>
     <div class="contаiner">
         <div class="header_box">
-            <a href="/"><img src="img/logo.svg" alt="logo" width="148"></a>
+            <a href="/" class = "logo"><img src="img/logo.svg" alt="logo" width="148"></a>
             <nav class="menu_outer">
                 <ul class="menu">
                     <li class="menu_item"><a class="menu_link" href="https://www.figma.com">About</a></li>
@@ -30,12 +30,10 @@
                 <a class="sign_up" href="https://www.figma.com"><strong>Sign up</strong></a>
             </div>
         </div>
-        <button onclick="myFunction()" class="burger_btn">
-            <span class="burger">
-                <span class="line_1"></span>
-                <span class="line_2"></span>
-                <span class="line_3"></span>
-            </span>
+        <button onclick="myFunction()" class="burger">
+            <span class="line_1"></span>
+            <span class="line_2"></span>
+            <span class="line_3"></span>
         </button>    
     </div>
         
@@ -112,22 +110,25 @@
                     <div class="plan_block_item">
                         <img class="plan_icon" src="img/free.svg" alt="" width="144">
                         <h3>Free Plan</h3>
-                        <div class="plan_item">
-                            <img class="check-img" src="img/check-icon.svg" alt="checked_icon" width="24">
-                            <span>Unlimited Bandwitch</span>
+                        <div class="plan_item_box">
+                            <div class="plan_item">
+                                <img class="check-img" src="img/check-icon.svg" alt="checked_icon" width="24">
+                                <span>Unlimited Bandwitch</span>
+                            </div>
+                            <div class="plan_item">
+                                <img class="check-img" src="img/check-icon.svg" alt="checked_icon" width="24">
+                                <span>Encrypted Connection</span>
+                            </div>
+                            <div class="plan_item">
+                                <img class="check-img" src="img/check-icon.svg" alt="checked_icon" width="24">
+                                <span>No Traffic Logs</span>
+                            </div>
+                            <div class="plan_item">
+                                <img class="check-img" src="img/check-icon.svg" alt="checked_icon" width="24">
+                                <span>Works on All Devices</span>
+                            </div>
                         </div>
-                        <div class="plan_item">
-                            <img class="check-img" src="img/check-icon.svg" alt="checked_icon" width="24">
-                            <span>Encrypted Connection</span>
-                        </div>
-                        <div class="plan_item">
-                            <img class="check-img" src="img/check-icon.svg" alt="checked_icon" width="24">
-                            <span>No Traffic Logs</span>
-                        </div>
-                        <div class="plan_item">
-                            <img class="check-img" src="img/check-icon.svg" alt="checked_icon" width="24">
-                            <span>Works on All Devices</span>
-                        </div>
+
                         <div class="plan_cost">
                             <h2>Free</h2>
                             <a class="plan_select_button" href="https://www.figma.com">Select</a>
@@ -136,26 +137,29 @@
                     <div class="plan_block_item">
                         <img class="plan_icon" src="img/standard.svg" alt="" width="144">
                         <h3>Standard Plan</h3>
-                        <div class="plan_item">
-                            <img class="check-img" src="img/check-icon.svg" alt="checked_icon" width="24">
-                            <span>Unlimited Bandwitch</span>
+                        <div class="plan_item_box">
+                            <div class="plan_item">
+                                <img class="check-img" src="img/check-icon.svg" alt="checked_icon" width="24">
+                                <span>Unlimited Bandwitch</span>
+                            </div>
+                            <div class="plan_item">
+                                <img class="check-img" src="img/check-icon.svg" alt="checked_icon" width="24">
+                                <span>Encrypted Connection</span>
+                            </div>
+                            <div class="plan_item">
+                                <img class="check-img" src="img/check-icon.svg" alt="checked_icon" width="24">
+                                <span>Yes Traffic Logs</span>
+                            </div>
+                            <div class="plan_item">
+                                <img class="check-img" src="img/check-icon.svg" alt="checked_icon" width="24">
+                                <span>Works on All Devices</span>
+                            </div>
+                            <div class="plan_item">
+                                <img class="check-img" src="img/check-icon.svg" alt="checked_icon" width="24">
+                                <span>Connect Anyware</span>
+                            </div>
                         </div>
-                        <div class="plan_item">
-                            <img class="check-img" src="img/check-icon.svg" alt="checked_icon" width="24">
-                            <span>Encrypted Connection</span>
-                        </div>
-                        <div class="plan_item">
-                            <img class="check-img" src="img/check-icon.svg" alt="checked_icon" width="24">
-                            <span>Yes Traffic Logs</span>
-                        </div>
-                        <div class="plan_item">
-                            <img class="check-img" src="img/check-icon.svg" alt="checked_icon" width="24">
-                            <span>Works on All Devices</span>
-                        </div>
-                        <div class="plan_item">
-                            <img class="check-img" src="img/check-icon.svg" alt="checked_icon" width="24">
-                            <span>Connect Anyware</span>
-                        </div>
+
                         <div class="plan_cost">
                             <h2>$9</h2>
                             <a class="plan_select_button" href="https://www.figma.com">Select</a>
@@ -164,30 +168,33 @@
                     <div class="plan_block_item">
                         <img class="plan_icon" src="img/premium.svg" alt="" width="144">
                         <h3>Premium Plan</h3>
-                        <div class="plan_item">
-                            <img class="check-img" src="img/check-icon.svg" alt="checked_icon" width="24">
-                            <span>Unlimited Bandwitch</span>
+                        <div class="plan_item_box">
+                            <div class="plan_item">
+                                <img class="check-img" src="img/check-icon.svg" alt="checked_icon" width="24">
+                                <span>Unlimited Bandwitch</span>
+                            </div>
+                            <div class="plan_item">
+                                <img class="check-img" src="img/check-icon.svg" alt="checked_icon" width="24">
+                                <span>Encrypted Connection</span>
+                            </div>
+                            <div class="plan_item">
+                                <img class="check-img" src="img/check-icon.svg" alt="checked_icon" width="24">
+                                <span>Yes Traffic Logs</span>
+                            </div>
+                            <div class="plan_item">
+                                <img class="check-img" src="img/check-icon.svg" alt="checked_icon" width="24">
+                                <span>Works on All Devices</span>
+                            </div>
+                            <div class="plan_item">
+                                <img class="check-img" src="img/check-icon.svg" alt="checked_icon" width="24">
+                                <span>Connect Anyware</span>
+                            </div>
+                            <div class="plan_item">
+                                <img class="check-img" src="img/check-icon.svg" alt="checked_icon" width="24">
+                                <span>Get New Features</span>
+                            </div>
                         </div>
-                        <div class="plan_item">
-                            <img class="check-img" src="img/check-icon.svg" alt="checked_icon" width="24">
-                            <span>Encrypted Connection</span>
-                        </div>
-                        <div class="plan_item">
-                            <img class="check-img" src="img/check-icon.svg" alt="checked_icon" width="24">
-                            <span>Yes Traffic Logs</span>
-                        </div>
-                        <div class="plan_item">
-                            <img class="check-img" src="img/check-icon.svg" alt="checked_icon" width="24">
-                            <span>Works on All Devices</span>
-                        </div>
-                        <div class="plan_item">
-                            <img class="check-img" src="img/check-icon.svg" alt="checked_icon" width="24">
-                            <span>Connect Anyware</span>
-                        </div>
-                        <div class="plan_item">
-                            <img class="check-img" src="img/check-icon.svg" alt="checked_icon" width="24">
-                            <span>Get New Features</span>
-                        </div>
+
                         <div class="plan_cost">
                             <h2>$12</h2>
                             <a class="plan_select_button" href="https://www.figma.com">Select</a>
@@ -286,9 +293,8 @@
                     </ul>
                 </div>
             </div>
-            <div>
-                <span class="left_side_copyright"> &copy; 2020LaslesVPN</span>
-            </div>
+            <p class="left_side_copyright"> &copy; 2020 LaslesVPN</p>
+
         </div>
     </div>
 </footer>
