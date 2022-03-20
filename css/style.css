@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	/*outline: 1px solid black;*/
 }
 
 body {
@@ -15,8 +16,14 @@ body {
 }
 
 header {
-	padding-top: 46px;
-	margin-bottom: 88.49px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+	padding: 10px 0;
+	margin-bottom: 90px;
+    background-color: #FFFFFF;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
 }
 
 .header_box {
@@ -25,9 +32,13 @@ header {
 	justify-content: space-between;
 }
 
+.burger_btn {
+    display: none;
+}
+
 header a {
-	color: #4F5665;
-	text-decoration: none;
+    color: #4F5665;
+    text-decoration: none;
 }
 
 .menu_outer .menu .menu_item {
@@ -90,7 +101,7 @@ header a {
     position: fixed;
     width: 20px;
     right: 20px;
-    top: 52px;
+    top: 24px;
 }
 
 .line_1,
@@ -99,22 +110,20 @@ header a {
 	background-color: darkgray;
     border-radius: 1px;
     height: 2px;
-    left: 7px;
+    left: 0;
     position: absolute;
     width: 20px;
 }
 
 .line_1 {
-	top: 9px;
+	top: 0;
 }
 .line_2 {
-	top: 14px;
+	top: 6px;
 }
 .line_3 {
-	top: 19px;
+	top: 12px;
 }
-
-
 
 .get_started_section {
 	display: flex;
@@ -160,7 +169,7 @@ header a {
 	width: 1140px;
 	max-width: 100%;
 	margin: 0 auto 96px;
-	box-shadow: 0 18px 60px -60px #0D1025;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .2);
 	border-radius: 10px;
 }
 
@@ -250,7 +259,7 @@ header a {
 
 .plan_intro {
 	text-align: center;
-	padding-bottom: 80px;
+	margin-bottom: 80px;
 }
 
 .plan_section_head {
@@ -264,7 +273,7 @@ header a {
 	display: inline-block;
 	line-height: 24px;
 	color: #4F5665;
-	width: 556px;
+	max-width: 556px;
 }
 
 .plan_versions_block {
@@ -331,8 +340,8 @@ footer {
 }
 
 .footer_left_side {
-	width: 100%;
-	max-width: 37%;
+	width: 370px;
+    flex: 0 0 370px;
 }
 
 .footer_logo_outer {
