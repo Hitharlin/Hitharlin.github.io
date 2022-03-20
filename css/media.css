@@ -65,6 +65,7 @@
 }
 
 @media screen and (max-width: 1000px){
+
     .burger {
         display: block;
         background: none;
@@ -119,7 +120,7 @@
 	}
 
 	.menu_outer .menu_link {
-		padding: 0 20px;
+		padding: 0 30px;
 	}
 
     .features_section,
